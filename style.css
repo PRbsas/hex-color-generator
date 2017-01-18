@@ -1,0 +1,28 @@
+body {
+  transition: all .5s ease;
+  font-family: 'Raleway', sans-serif;
+  background-color: #000;
+  color: #fff
+}
+
+.box {
+  width: auto;
+  height: 200px;
+}
+#circle {
+  width: 200px;
+  height: 200px;
+  background: transparent;
+  border: 5px solid #fff;
+  border-radius: 50%;
+  position: absolute;
+  left: 50%;
+  margin-left: -100px;
+
+}
+button:focus {
+  outline: none;
+}
+h1, p {
+  text-align: center;
+}
