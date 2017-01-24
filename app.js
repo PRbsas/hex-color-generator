@@ -4,8 +4,10 @@ function getColor() {
 function setBackground() {
   var bgColor = getColor();
   document.body.style.background = bgColor;
+  console.log(bgColor);
+  document.getElementById('color').innerHTML += bgColor + '<br />';
 }
-document.querySelector("button").addEventListener("click", function(){
+document.querySelector('button').addEventListener('click', function(){
   bgColor = setBackground();
 });
 document.body.onkeyup = function(event){

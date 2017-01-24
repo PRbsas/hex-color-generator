@@ -2,7 +2,7 @@ body {
   transition: all .5s ease;
   font-family: 'Raleway', sans-serif;
   background-color: #000;
-  color: #fff
+  color: #fff;
 }
 
 .box {
@@ -13,7 +13,7 @@ body {
   width: 200px;
   height: 200px;
   background: transparent;
-  border: 5px solid #fff;
+  border: 10px solid #fff;
   border-radius: 50%;
   position: absolute;
   left: 50%;
@@ -25,4 +25,10 @@ button:focus {
 }
 h1, p {
   text-align: center;
+}
+#color {
+  text-transform: uppercase;
+  margin: 0 auto;
+  padding: 10px 0;
+  line-height: 1.8;
 }
